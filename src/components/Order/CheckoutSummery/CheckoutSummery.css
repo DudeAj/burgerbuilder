@@ -1,0 +1,31 @@
+.CheckoutSummery {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width:600px) {
+    .CheckoutSummery {
+        width: 500px;
+    }
+}
+
+.Success {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    font: inherit;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Cancel {
+    background-color: transparent;
+    color: red;
+    border: none;
+    font: inherit;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
